@@ -1,7 +1,6 @@
 proxy:
-  #image: littleqz/shadowsocks
   build: ./
-  container_name: ss_proxy
+  container_name: ss_proxy_python
   volumes:
     - ./shadowsocks.json:/etc/shadowsocks.json
   ports:
