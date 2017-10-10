@@ -1,9 +1,9 @@
 {
   "server":"your-ip-address",
-  "server_port":8888,
+  "server_port":"8888",
   "local_address": "0.0.0.0",
-  "local_port":1080,
+  "local_port":"1080",
   "password":"your-password",
-  "timeout":600,
+  "timeout":"600",
   "method":"rc4-md5"
 }
